@@ -51,4 +51,4 @@ Create changes in the repo as you wish. The repo is a standard directory on your
   7. For the "base" next to "head repository" field, choose the branch you want to upstream, probably 'master'
 
 If you have any questions, please create an issue on this repository (using the issues tab) on the base repository.
-(Link to the issue tracker on the base repository)[https://github.com/yash101/ASU-Random-Club-Info/issues]
+[Link to the issue tracker on the base repository](https://github.com/yash101/ASU-Random-Club-Info/issues)
