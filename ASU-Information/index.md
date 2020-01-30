@@ -2,4 +2,4 @@
 
 This file contains a table of contents for ASU-Information
 
-- (/ASU-Information/index.md)[/ASU-Information/index.md]
+- [/ASU-Information/index.md](/ASU-Information/index.md)

@@ -16,7 +16,7 @@ Please create directories within this repo that organize your docs hierarchicall
 
 ### Prerequisites
 
-1. (Install Git (docs))[https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]
+1. [Install Git (docs)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. Fork this repository by clicking the "Fork" button on the GitHub page
   - This will create your own copy of this repo to work on
 
@@ -41,7 +41,7 @@ Create changes in the repo as you wish. The repo is a standard directory on your
 3. Push your changes:
   - `git push -u origin {current branch}`
     - Find the current branch by running `git branch`
-4. Upstream your changes (Better Docs from GitHub)[https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork]:
+4. Upstream your changes [Better Docs from GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork):
   1. Upstreaming pushes your changes to the root repo for everyone to access
   2. On the GitHub page for your fork of the root repo, click "New pull request"
   3. Click "Compare across forks"

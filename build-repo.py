@@ -35,10 +35,10 @@ while len(queue) is not 0:
         queue.append(Path(directory))
         relPath = directory.relative_to(rootPath)
 
-        currentOutputBuffer += '- (/%s/)[/%s/]\n' % (directory.relative_to(rootPath).as_posix(), directory.relative_to(rootPath).as_posix())
+        currentOutputBuffer += '- [/%s/](/%s/)\n' % (directory.relative_to(rootPath).as_posix(), directory.relative_to(rootPath).as_posix())
 
     for fil in files:
-        currentOutputBuffer += '- (/%s)[/%s]\n' % (fil.relative_to(rootPath).as_posix(), fil.relative_to(rootPath).as_posix())
+        currentOutputBuffer += '- [/%s](/%s)\n' % (fil.relative_to(rootPath).as_posix(), fil.relative_to(rootPath).as_posix())
 
     outputFilePath = currentPath.joinpath('index.md')
     with outputFilePath.open('w') as writeBuffer:
