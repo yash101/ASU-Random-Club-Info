@@ -42,4 +42,5 @@ while len(queue) is not 0:
 
     outputFilePath = currentPath.joinpath('index.md')
     with outputFilePath.open('w') as writeBuffer:
+        print("Writing index %s" % outputFilePath.as_posix())
         writeBuffer.write(currentOutputBuffer)
